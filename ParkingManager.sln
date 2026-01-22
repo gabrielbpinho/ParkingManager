@@ -5,6 +5,14 @@ VisualStudioVersion = 17.14.36915.13 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManager.Domain", "ParkingManager.Domain\ParkingManager.Domain.csproj", "{69739947-D081-4FC5-87DD-4D13A751F1DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManager.Application", "ParkingManager.Application\ParkingManager.Application.csproj", "{D6474D51-14F1-4163-96E6-4DC880083447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManager.Infra.Data", "ParkingManager.Infra.Data\ParkingManager.Infra.Data.csproj", "{02780947-C7BA-4580-86EE-FF4A64626365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManager.Infra.IoC", "ParkingManager.Infra.IoC\ParkingManager.Infra.IoC.csproj", "{AB5F9D56-9736-404F-988A-DE1B6A20737F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingManagerAPI", "ParkingManagerAPI\ParkingManagerAPI.csproj", "{41FA4CC8-3AAF-465C-8B87-97C51379BEB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{69739947-D081-4FC5-87DD-4D13A751F1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69739947-D081-4FC5-87DD-4D13A751F1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69739947-D081-4FC5-87DD-4D13A751F1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6474D51-14F1-4163-96E6-4DC880083447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6474D51-14F1-4163-96E6-4DC880083447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6474D51-14F1-4163-96E6-4DC880083447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6474D51-14F1-4163-96E6-4DC880083447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02780947-C7BA-4580-86EE-FF4A64626365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02780947-C7BA-4580-86EE-FF4A64626365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02780947-C7BA-4580-86EE-FF4A64626365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02780947-C7BA-4580-86EE-FF4A64626365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5F9D56-9736-404F-988A-DE1B6A20737F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5F9D56-9736-404F-988A-DE1B6A20737F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5F9D56-9736-404F-988A-DE1B6A20737F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5F9D56-9736-404F-988A-DE1B6A20737F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FA4CC8-3AAF-465C-8B87-97C51379BEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FA4CC8-3AAF-465C-8B87-97C51379BEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FA4CC8-3AAF-465C-8B87-97C51379BEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FA4CC8-3AAF-465C-8B87-97C51379BEB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
